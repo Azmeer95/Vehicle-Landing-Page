@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter" !important;
+}
+
+.nav-link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  color: #0d0a19;
+  margin-left: 20px;
+}
+
+.sign-up {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: -0.1px;
+
+  color: #9a9ea7;
+}
+
+.sign-up img {
+  background-color: #f5f6f7;
+  border-radius: 10px;
+  width: 32px;
+  height: 32px;
+  padding: 5px 8px;
+  margin-right: 5px;
+}
