@@ -151,6 +151,74 @@ body {
   margin-bottom: 100px;
 }
 
+/* Trending Section */
+.section-3 h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: -0.1px;
+  color: #0d0a19;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-3 h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #0d0a19;
+  margin-top: 10px;
+}
+
+.section-3 p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.1px;
+  color: #9a9ea7;
+}
+
+.button-1 {
+  background: linear-gradient(
+      0deg,
+      rgba (255, 255, 255, 0.85),
+      rgba (255, 255, 255, 0.85)
+    ),
+    #7963f0 !important;
+  color: #7963f0 !important;
+  border-radius: 8px !important;
+  font-weight: 500 !important;
+  font-family: "Inter";
+  font-style: normal !important;
+  font-size: 14px !important;
+  line-height: 21px !important;
+  text-align: center !important;
+  letter-spacing: -0.1px !important;
+}
+
+.button-2 {
+  background: #f5f6f7 !important;
+  color: #9a9ea7 !important;
+  border-radius: 8px !important;
+  font-weight: 500 !important;
+  font-family: "Inter";
+  font-style: normal !important;
+  font-size: 14px !important;
+  line-height: 21px !important;
+  text-align: center !important;
+  letter-spacing: -0.1px !important;
+}
+
+.card {
+  border: none;
+}
+
 @media all and (max-width: 767px) {
   .section-1 h1 {
     font-size: 38px;
