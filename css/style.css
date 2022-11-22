@@ -83,8 +83,8 @@ body {
   max-width: 945px;
   height: 80px;
   position: absolute;
-  margin: 0 auto;
-  bottom: 265px;
+  margin: 0px auto;
+  bottom: 10px;
   left: 50%;
   z-index: 99;
   width: 98%;
@@ -97,15 +97,9 @@ body {
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
-  /* identical to box height, or 150% */
-
   letter-spacing: -0.1px;
-
-  /* Greys / #9A9EA7 */
-
   color: #9a9ea7;
   margin-left: 10px;
-  margin-top: 10px;
 }
 
 .form-select {
@@ -114,12 +108,7 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 21px;
-  /* identical to box height, or 150% */
-
   letter-spacing: -0.1px;
-
-  /* #0D0A19 / Primary */
-
   color: #0d0a19;
   border: none !important;
   margin-top: -10%;
@@ -144,4 +133,34 @@ body {
 
 .header-button img {
   margin-top: -3px;
+}
+
+.border-right {
+  border-right: 1px solid #ede8e9;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.some-margin {
+  margin-top: 30px;
+}
+
+@media all and (max-width: 767px) {
+  .section-1 h1 {
+    font-size: 38px;
+  }
+
+  .section1-p {
+    font-size: 16px;
+  }
+
+  .top-footer-section {
+    height: 100px;
+  }
+
+  .header-button {
+    width: 95%;
+    padding: 17px;
+    margin: auto;
+  }
 }
